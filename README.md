@@ -142,3 +142,61 @@ display by turning all the segments OFF and moving the current position to the d
 </details>
 
 
+### 📝 Homework :four:
+
+> <i>Implemented a stopwatch timer that counts in 10ths of a second
+and has a save lap functionality (similar to most basic stopwatch functions on most phones) using a 4 digit 7 segment display and 3 buttons. </i> ✔️
+
+[💻 <b>Code</b>](https://github.com/anamariapanait10/Introduction-To-Robotics/blob/main/Homework/Homework4-4-digit-7-Segment-Display/Homework4/Homework4.ino)
+
+
+<details>
+ <summary><b>See all requirements</b></summary>
+ <br>
+ 
+⚙️ Components:
+  - 4 digit 7-segment display 
+  - 1 shift register
+  - 3 buttons 🕹️
+  - Resistors and wires
+
+✏️ Requirements:
+
+The starting value of the 4 digit 7 segment display is `000.0`. The buttons have the following functionalities:
+- **Button 1:** Start / pause.
+- **Button 2:** Reset (if in pause mode). Reset saved laps (if in lap
+viewing mode).
+- **Button 3:** Save lap (if in counting mode), cycle through last saved
+laps (up to 4 laps).
+
+✏️ Workflow:
+1. Display shows `000.0`. When pressing the Start button, the timer starts.
+2. During timer **counter**, each time the lap button is pressed, the timer's value is saved in memory, up to 4 laps; pressing the
+5th time overrides the 1st saved one. If the reset button is pressed while the timer works, nothing happens. If the pause button is pressed the timer stops.
+3. In **Pause Mode**, the lap flag button doesn’t work anymore. Pressing
+the reset button resets you to 000.0.
+4. After **reset**, the flag button can be pressed to cycle through the lap times. Each time the flag button is pressed, it displays the
+next saved lap. Pressing it continuously cycles you through it
+continuously. Pressing the reset button while in this state resets all
+your flags and takes the timer back to `000.0`.
+
+</details>
+
+<details>
+ <summary><b>Photo</b></summary>
+
+ <div align="center"> 
+  <img width="480px" src="https://github.com/anamariapanait10/Introduction-To-Robotics/blob/main/Homework/Homework4-4-digit-7-Segment-Display/Homework4-Photo.jpeg" alt="Photo">
+ </div>
+</details>
+
+<details>
+ <summary><b>Video</b></summary>
+
+ <div align="center"> 
+   <a href="https://youtu.be/99ecpExxoHw"><img src="https://img.youtube.com/vi/99ecpExxoHw/0.jpg" alt="Video"></a>
+ </div>
+</details>
+
+
+
