@@ -199,4 +199,63 @@ your flags and takes the timer back to `000.0`.
 </details>
 
 
+### 📝 Homework :five:
 
+> <i>Implemented a `Smart Environment Monitor and Logger` using Arduino that utilizes various sensors to gather environmental data, logs this data into
+EEPROM, and provides both visual feedback via an RGB LED and user interaction through a Serial Menu. </i> ✔️
+
+
+[💻 <b>Code</b>](https://github.com/anamariapanait10/Introduction-To-Robotics/blob/main/Homework/Homework5-Smart-Environment-Monitor-And-Logger/Homework5/Homework5.ino)
+
+
+<details>
+ <summary><b>See all requirements</b></summary>
+ <br>
+ 
+### ⚙️ Components:
+  - Ultrasonic Sensor (HC-SR04)
+  - LDR (Light-Dependent Resistor)
+  - RGB LED
+  - Resistors and wires
+
+### ✏️ Menu Structure Overview:
+
+#### 1. Sensor Settings Submenu
+- **1.1 Sampling Interval:** Set between 1-10 seconds.
+- **1.2 Ultrasonic Alert Threshold:** Set a threshold for proximity alerts.
+- **1.3 LDR Alert Threshold:** Set a threshold for light intensity alerts.
+- **1.4 Back:** Return to the main menu.
+
+#### 2. Reset Logger Data
+- **2.1 Yes:** Confirm and delete all data.
+- **2.2 No:** Do not delete data.
+
+#### 3. System Status
+- **3.1 Current Sensor Readings:** View real-time data.
+- **3.2 Current Sensor Settings:** Review current configurations.
+- **3.3 Display Logged Data:** Check the last 10 readings.
+- **3.4 Back:** Return to the main menu.
+
+#### 4. RGB LED Control Submenu
+- **4.1 Manual Color Control:** Customize the LED color.
+- **4.2 LED Automatic Mode:** Toggle automatic alerts via LED color changes.
+- **4.3 Back:** Return to the main menu.
+
+
+</details>
+
+<details>
+ <summary><b>Photo</b></summary>
+
+ <div align="center"> 
+  <img width="480px" src="https://github.com/anamariapanait10/Introduction-To-Robotics/blob/main/Homework/Homework5-Smart-Environment-Monitor-And-Logger/Homework5-Photo.jpeg" alt="Photo">
+ </div>
+</details>
+
+<details>
+ <summary><b>Video</b></summary>
+
+ <div align="center"> 
+   <a href="https://youtu.be/elDB9sButEE"><img src="https://img.youtube.com/vi/elDB9sButEE/0.jpg" alt="Video"></a>
+ </div>
+</details>
