@@ -259,3 +259,42 @@ EEPROM, and provides both visual feedback via an RGB LED and user interaction th
    <a href="https://youtu.be/elDB9sButEE"><img src="https://img.youtube.com/vi/elDB9sButEE/0.jpg" alt="Video"></a>
  </div>
 </details>
+
+
+### 📝 Homework :six:
+
+> <i>Developed a game on a 8x8 matrix with 3 types of elements: player (blinks slowly), bombs (blinks fast), wall (doesn’t blink). Walls randomly generate on the map (50% of the map) and the player has to move around using the joystick and destroy them by placing bombs around them (at a distance of maximim 2 matrix LEDs) </i> ✔️
+
+
+[💻 <b>Code</b>](https://github.com/anamariapanait10/Introduction-To-Robotics/blob/main/Homework/Homework6-LED-Matrix-Game/Homework6/Homework6.ino)
+
+
+<details>
+ <summary><b>See all requirements</b></summary>
+ <br>
+
+### ⚙️ Components:
+- joystick 
+- 8x8 LED Matrix 
+- MAX7219 
+- Photoresitor
+- Buzzer
+- resistors and capacitors
+
+</details>
+
+<details>
+ <summary><b>Photo</b></summary>
+
+ <div align="center"> 
+  <img width="480px" src="https://github.com/anamariapanait10/Introduction-To-Robotics/blob/main/Homework/Homework6-LED-Matrix-Game/Homework6-Photo.jpeg" alt="Photo">
+ </div>
+</details>
+
+<details>
+ <summary><b>Video</b></summary>
+
+ <div align="center"> 
+   <a href="https://youtu.be/tMHK_TGCKZg"><img src="https://img.youtube.com/vi/tMHK_TGCKZg/0.jpg" alt="Video"></a>
+ </div>
+</details>
