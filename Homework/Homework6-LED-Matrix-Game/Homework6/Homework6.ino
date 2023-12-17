@@ -6,7 +6,7 @@ const int joyXPin = A1;
 const int joyYPin = A0;
 const int photoresistorPin = A2;
 const int buttonPin = 2;  // Button for bomb placement
-const int buzzerPin = 9;
+const int buzzerPin = 13;
 
 // Constants for LED matrix
 const int dataInPin = 12;
@@ -248,7 +248,7 @@ void adjustMatrixBrightness() {
 
 void updateScore() {
   static int score = 0;
-  if (numOfWalls < lastNumOfWalls) {
+  if (numOfWalls != lastNumOfWalls) {
     score++;
     Serial.println("-------- Score -------");
     Serial.println(score);

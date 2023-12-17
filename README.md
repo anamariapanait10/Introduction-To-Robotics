@@ -298,3 +298,61 @@ EEPROM, and provides both visual feedback via an RGB LED and user interaction th
    <a href="https://youtu.be/tMHK_TGCKZg"><img src="https://img.youtube.com/vi/tMHK_TGCKZg/0.jpg" alt="Video"></a>
  </div>
 </details>
+
+### 📝 Homework :seven:
+
+> <i>Developed a game on a 8x8 matrix with 4 types of elements: player (blinks slowly), enemy (blinks fast), food (blinks the slowest), wall (doesn’t blink). Walls randomly generate on the map and the player has to move around using the joystick and eat up to 15 foods while avoiding the bullets from the enemies. </i> ✔️
+
+
+[💻 <b>Code</b>](https://github.com/anamariapanait10/Introduction-To-Robotics/blob/main/Homework/Homework7-Matrix-Checkpoint/Homework7/Homework7.ino)
+
+
+<details>
+ <summary><b>See all requirements</b></summary>
+ <br>
+
+### ✏️ Menu Structure Overview:
+
+- **Intro message**
+- **Start Game:**
+  * Shown details while playing
+  * Screen upon game ending with input in order to move on
+  * Informs you when highscore is achieved
+- **Highscore:** top 3 in eeprom with name and score
+- **Settings:**
+  * Enter name 
+  * LCD brightness control (eeprom)
+  * Matrix brightness control (eeprom).
+  * Sound control on/off (eeprom)
+  * Reset high scores button in settings
+- **About:** github user, developer name and game name
+- **How to play:** short and informative description
+
+### ⚙️ Components:
+- Arduino board
+- Joystick 
+- 8x8 LED Matrix 
+- MAX7219 
+- LCD Display
+- Buzzer
+- Button
+- resistors and capacitors
+- wires
+
+</details>
+
+<details>
+ <summary><b>Photo</b></summary>
+
+ <div align="center"> 
+  <img width="480px" src="https://github.com/anamariapanait10/Introduction-To-Robotics/blob/main/Homework/Homework7-Matrix-Checkpoint/Homework7-Photo.jpeg" alt="Photo">
+ </div>
+</details>
+
+<details>
+ <summary><b>Video</b></summary>
+
+ <div align="center"> 
+   <a href="https://youtu.be/tppwd_xsm20"><img src="https://img.youtube.com/vi/tppwd_xsm20/0.jpg" alt="Video"></a>
+ </div>
+</details>
