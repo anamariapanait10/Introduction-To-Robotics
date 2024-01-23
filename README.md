@@ -396,6 +396,15 @@ for a few seconds then starts following the line.
 
 The robot uses a PID control algorithm to adjust the speed of the motors based on the position of the robot over the line. The constants that we found to give the best results are `Kp = 25` and `Kd = 8` and the error ignore interval was `[-18, 18]` (from a total of [-50, 50]).
 
+<details>
+ <summary><b>Components diagram</b></summary>
+
+ <div align="center"> 
+  <img width="480px" src="https://github.com/anamariapanait10/Introduction-To-Robotics/blob/main/Homework/LineFollower/ComponentsDiagram.jpeg" alt="Photo">
+ </div>
+</details>
+
+</details>
 
 </details>
 
